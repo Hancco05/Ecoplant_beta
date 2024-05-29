@@ -1,0 +1,25 @@
+Ecoplant
+├── app
+│   ├── Http
+│   │   ├── Controllers
+│   │   │   ├── Auth
+│   │   │   │   ├── LoginController.php
+│   │   │   │   ├── RegisterController.php
+│   │   │   ├── ContactController.php
+│   │   │   ├── NewsController.php
+│   ├── Mail
+│   │   ├── ContactFormMail.php
+├── resources
+│   ├── views
+│   │   ├── auth
+│   │   │   ├── login.blade.php
+│   │   │   ├── register.blade.php
+│   │   ├── emails
+│   │   │   ├── contact.blade.php
+│   │   ├── news
+│   │   │   ├── index.blade.php
+│   │   │   ├── show.blade.php
+│   │   ├── welcome.blade.php
+├── routes
+│   ├── web.php
+└── .env
